@@ -13,7 +13,8 @@ def translate_content(text):
 
     try:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-pro')
+        # Using gemini-2.5-flash as it is a current stable model
+        model = genai.GenerativeModel('gemini-2.5-flash')
         
         prompt = f"""
         Translate the following AI news content to natural, professional Korean.
