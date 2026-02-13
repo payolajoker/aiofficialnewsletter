@@ -10,7 +10,7 @@ Google, OpenAI, Anthropic의 공식 블로그 및 뉴스 소식을 1시간마다
   - ChatGPT Release Notes
   - Anthropic News
   - Anthropic Research
-- **자동 번역**: Google Gemini Pro API를 사용하여 고품질 한국어 요약 제공.
+- **자동 번역**: Google Gemini 2.5 Flash API를 사용하여 고품질 한국어 요약 제공.
 - **Discord 알림**: 새 글 발견 시 즉시 Discord Webhook으로 전송.
 - **Github Actions**: 별도의 서버 없이 Github Actions를 이용해 매시간 자동 실행.
 
