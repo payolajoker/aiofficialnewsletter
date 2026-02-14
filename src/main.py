@@ -27,6 +27,7 @@ def load_history():
     return []
 
 def save_history(history):
+    os.makedirs(os.path.dirname(HISTORY_FILE), exist_ok=True)
     with open(HISTORY_FILE, 'w', encoding='utf-8') as f:
         json.dump(history, f, ensure_ascii=False, indent=2)
 
@@ -93,18 +94,18 @@ def main():
              summary_text = item['summary'][:500] + "..." if len(item['summary']) > 500 else item['summary']
              item['translated_summary'] = translate_content(summary_text)
         else:
-             item['translated_summary'] = "요약 없음"
+             item['translated_summary'] = "No Summary"
 
-        # Send to Discord
-        send_discord_message(item)
-        
-        # Update History immediately to avoid double sending if crash
+        # Update History immediately BEFORE sending to avoid duplicate sending if crash occurs after send
         history.append({
             "link": item['link'],
             "title": item['title'],
             "processed_at": datetime.now().isoformat()
         })
         save_history(history)
+
+        # Send to Discord
+        send_discord_message(item)
         
         # Limit processing to avoid spamming or rate limits if many new items
         # Just process all for now, but maybe add a sleep

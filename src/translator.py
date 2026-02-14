@@ -9,7 +9,7 @@ def translate_content(text):
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
         logger.error("GEMINI_API_KEY not found in environment variables.")
-        return text + " (번역 실패: API Key 없음)"
+        return text
 
     try:
         genai.configure(api_key=api_key)
@@ -28,4 +28,4 @@ def translate_content(text):
         return response.text.strip()
     except Exception as e:
         logger.error(f"Translation failed: {e}")
-        return text + " (번역 실패: 오류 발생)"
+        return text
