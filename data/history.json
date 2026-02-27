@@ -223,5 +223,25 @@
     "link": "https://www.anthropic.com/news/statement-department-of-war",
     "title": "Statement from Dario Amodei on our discussions with the Department of War",
     "processed_at": "2026-02-26T23:21:18.449018"
+  },
+  {
+    "link": "https://openai.com/index/amazon-partnership",
+    "title": "<![CDATA[OpenAI and Amazon announce strategic partnership]]>",
+    "processed_at": "2026-02-27T13:53:25.092868"
+  },
+  {
+    "link": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
+    "title": "<![CDATA[Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock]]>",
+    "processed_at": "2026-02-27T13:53:42.163747"
+  },
+  {
+    "link": "https://openai.com/index/continuing-microsoft-partnership",
+    "title": "<![CDATA[Joint Statement from OpenAI and Microsoft]]>",
+    "processed_at": "2026-02-27T13:53:51.035111"
+  },
+  {
+    "link": "https://openai.com/index/scaling-ai-for-everyone",
+    "title": "<![CDATA[Scaling AI for everyone]]>",
+    "processed_at": "2026-02-27T13:54:08.017892"
   }
 ]
