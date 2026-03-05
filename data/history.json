@@ -308,5 +308,25 @@
     "link": "https://openai.com/index/ai-education-opportunity",
     "title": "<![CDATA[Ensuring AI use in education leads to opportunity]]>",
     "processed_at": "2026-03-05T17:54:54.318609"
+  },
+  {
+    "link": "https://blog.google/company-news/inside-google/googlers/how-google-ai-visual-search-works/",
+    "title": "Ask a Techspert: How does AI understand my visual searches?",
+    "processed_at": "2026-03-05T19:08:47.745645"
+  },
+  {
+    "link": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+    "title": "<![CDATA[Reasoning models struggle to control their chains of thought, and that’s good]]>",
+    "processed_at": "2026-03-05T19:09:07.398951"
+  },
+  {
+    "link": "https://openai.com/index/introducing-gpt-5-4",
+    "title": "<![CDATA[Introducing GPT-5.4]]>",
+    "processed_at": "2026-03-05T19:09:19.924451"
+  },
+  {
+    "link": "https://openai.com/index/gpt-5-4-thinking-system-card",
+    "title": "<![CDATA[GPT-5.4 Thinking System Card]]>",
+    "processed_at": "2026-03-05T19:09:27.244598"
   }
 ]
