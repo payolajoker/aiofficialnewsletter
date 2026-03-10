@@ -378,5 +378,10 @@
     "link": "https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt",
     "title": "<![CDATA[New ways to learn math and science in ChatGPT]]>",
     "processed_at": "2026-03-10T17:39:38.306927"
+  },
+  {
+    "link": "https://openai.com/index/instruction-hierarchy-challenge",
+    "title": "<![CDATA[Improving instruction hierarchy in frontier LLMs]]>",
+    "processed_at": "2026-03-10T18:36:10.594340"
   }
 ]
