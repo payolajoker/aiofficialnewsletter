@@ -383,5 +383,15 @@
     "link": "https://openai.com/index/instruction-hierarchy-challenge",
     "title": "<![CDATA[Improving instruction hierarchy in frontier LLMs]]>",
     "processed_at": "2026-03-10T18:36:10.594340"
+  },
+  {
+    "link": "https://openai.com/index/equip-responses-api-computer-environment",
+    "title": "<![CDATA[From model to agent: Equipping the Responses API with a computer environment ]]>",
+    "processed_at": "2026-03-11T18:42:24.994334"
+  },
+  {
+    "link": "https://openai.com/index/wayfair",
+    "title": "<![CDATA[Wayfair boosts catalog accuracy and support speed with OpenAI]]>",
+    "processed_at": "2026-03-11T18:42:40.782398"
   }
 ]
