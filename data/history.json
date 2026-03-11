@@ -393,5 +393,10 @@
     "link": "https://openai.com/index/wayfair",
     "title": "<![CDATA[Wayfair boosts catalog accuracy and support speed with OpenAI]]>",
     "processed_at": "2026-03-11T18:42:40.782398"
+  },
+  {
+    "link": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+    "title": "<![CDATA[Designing AI agents to resist prompt injection]]>",
+    "processed_at": "2026-03-11T19:36:34.656087"
   }
 ]
