@@ -1,0 +1,12 @@
+# Minimal repo-level ignores for future work
+.env
+.env.*
+.venv/
+env/
+node_modules/
+dist/
+build/
+__pycache__/
+*.py[cod]
+Thumbs.db
+.DS_Store
