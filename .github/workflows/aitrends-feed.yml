@@ -1,0 +1,53 @@
+name: AITRENDS Feed
+
+on:
+  schedule:
+    - cron: "17,47 * * * *"
+  workflow_dispatch:
+    inputs:
+      bootstrap:
+        description: "Seed current feed into state without posting"
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aitrends-feed
+  cancel-in-progress: false
+
+jobs:
+  run-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Run feed job
+        env:
+          AITRENDS_DISCORD_WEBHOOK_URL: ${{ secrets.AITRENDS_DISCORD_WEBHOOK_URL }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.bootstrap }}" = "true" ]; then
+            python run_feed_job.py --bootstrap
+          else
+            python run_feed_job.py
+          fi
+
+      - name: Commit state changes
+        run: |
+          if git diff --quiet -- data/sent_articles.json; then
+            echo "No state changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sent_articles.json
+          git commit -m "Update sent article state"
+          git push
