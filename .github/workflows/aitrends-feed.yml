@@ -2,7 +2,7 @@ name: AITRENDS Feed
 
 on:
   schedule:
-    - cron: "17,47 * * * *"
+    - cron: "0,30 * * * *"
   workflow_dispatch:
     inputs:
       bootstrap:
