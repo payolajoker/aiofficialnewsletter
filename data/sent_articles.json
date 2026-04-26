@@ -2,22 +2,6 @@
   "version": 1,
   "articles": [
     {
-      "url": "https://aitrends.kr/articles/48858",
-      "sent_at": "2026-04-22T05:37:08Z"
-    },
-    {
-      "url": "https://aitrends.kr/articles/48860",
-      "sent_at": "2026-04-22T05:37:09Z"
-    },
-    {
-      "url": "https://aitrends.kr/articles/48890",
-      "sent_at": "2026-04-22T07:25:06Z"
-    },
-    {
-      "url": "https://aitrends.kr/articles/48891",
-      "sent_at": "2026-04-22T07:25:07Z"
-    },
-    {
       "url": "https://aitrends.kr/articles/48894",
       "sent_at": "2026-04-22T07:25:07Z"
     },
@@ -2000,6 +1984,22 @@
     {
       "url": "https://aitrends.kr/articles/51049",
       "sent_at": "2026-04-26T19:26:26Z"
+    },
+    {
+      "url": "https://aitrends.kr/articles/51050",
+      "sent_at": "2026-04-26T20:02:17Z"
+    },
+    {
+      "url": "https://aitrends.kr/articles/51051",
+      "sent_at": "2026-04-26T20:02:17Z"
+    },
+    {
+      "url": "https://aitrends.kr/articles/51055",
+      "sent_at": "2026-04-26T20:02:17Z"
+    },
+    {
+      "url": "https://aitrends.kr/articles/51057",
+      "sent_at": "2026-04-26T20:02:17Z"
     }
   ]
 }
