@@ -2,10 +2,6 @@
   "version": 1,
   "articles": [
     {
-      "url": "https://aitrends.kr/articles/62823",
-      "sent_at": "2026-06-03T12:17:52Z"
-    },
-    {
       "url": "https://aitrends.kr/articles/62826",
       "sent_at": "2026-06-03T12:17:52Z"
     },
@@ -2000,6 +1996,10 @@
     {
       "url": "https://aitrends.kr/articles/66797",
       "sent_at": "2026-06-20T12:13:33Z"
+    },
+    {
+      "url": "https://aitrends.kr/articles/66798",
+      "sent_at": "2026-06-20T14:39:05Z"
     }
   ]
 }
