@@ -2,46 +2,6 @@
   "version": 1,
   "articles": [
     {
-      "url": "https://aitrends.kr/articles/69353",
-      "sent_at": "2026-06-28T19:52:08Z"
-    },
-    {
-      "url": "https://aitrends.kr/articles/69361",
-      "sent_at": "2026-06-28T19:52:09Z"
-    },
-    {
-      "url": "https://aitrends.kr/articles/69369",
-      "sent_at": "2026-06-28T19:52:09Z"
-    },
-    {
-      "url": "https://aitrends.kr/articles/69370",
-      "sent_at": "2026-06-28T19:52:09Z"
-    },
-    {
-      "url": "https://aitrends.kr/articles/69255",
-      "sent_at": "2026-06-28T20:55:47Z"
-    },
-    {
-      "url": "https://aitrends.kr/articles/69256",
-      "sent_at": "2026-06-28T21:59:26Z"
-    },
-    {
-      "url": "https://aitrends.kr/articles/69367",
-      "sent_at": "2026-06-28T21:59:26Z"
-    },
-    {
-      "url": "https://aitrends.kr/articles/69378",
-      "sent_at": "2026-06-28T21:59:26Z"
-    },
-    {
-      "url": "https://aitrends.kr/articles/69390",
-      "sent_at": "2026-06-28T21:59:26Z"
-    },
-    {
-      "url": "https://aitrends.kr/articles/69402",
-      "sent_at": "2026-06-28T23:11:10Z"
-    },
-    {
       "url": "https://aitrends.kr/articles/69405",
       "sent_at": "2026-06-29T01:35:13Z"
     },
@@ -2000,6 +1960,46 @@
     {
       "url": "https://aitrends.kr/articles/74771",
       "sent_at": "2026-07-07T12:50:45Z"
+    },
+    {
+      "url": "https://aitrends.kr/articles/74795",
+      "sent_at": "2026-07-07T15:23:04Z"
+    },
+    {
+      "url": "https://aitrends.kr/articles/74797",
+      "sent_at": "2026-07-07T15:23:04Z"
+    },
+    {
+      "url": "https://aitrends.kr/articles/74800",
+      "sent_at": "2026-07-07T15:23:04Z"
+    },
+    {
+      "url": "https://aitrends.kr/articles/74803",
+      "sent_at": "2026-07-07T15:23:05Z"
+    },
+    {
+      "url": "https://aitrends.kr/articles/74805",
+      "sent_at": "2026-07-07T15:23:05Z"
+    },
+    {
+      "url": "https://aitrends.kr/articles/74809",
+      "sent_at": "2026-07-07T15:23:05Z"
+    },
+    {
+      "url": "https://aitrends.kr/articles/74813",
+      "sent_at": "2026-07-07T15:23:05Z"
+    },
+    {
+      "url": "https://aitrends.kr/articles/74819",
+      "sent_at": "2026-07-07T15:23:06Z"
+    },
+    {
+      "url": "https://aitrends.kr/articles/74821",
+      "sent_at": "2026-07-07T15:23:06Z"
+    },
+    {
+      "url": "https://aitrends.kr/articles/74822",
+      "sent_at": "2026-07-07T15:23:06Z"
     }
   ]
 }
